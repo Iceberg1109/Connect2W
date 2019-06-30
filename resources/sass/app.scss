@@ -1,0 +1,32 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import '~vuetify/dist/vuetify.min.css';
+
+.page {
+	/*position: fixed;*/
+	width: 100%;
+	margin: -20px 0px;
+}
+
+.application--wrap {
+    display:block !important;
+}
+
+input#dateNotifyEmail::placeholder { /* Firefox, Chrome, Opera */
+    color: white;
+    padding-left: 10px;
+}
+
+input#dateNotifyEmail:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    padding-left: 10px;
+}
+
+input#dateNotifyEmail::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    padding-left: 10px;
+}
